@@ -1,17 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+    <style>
+        nav {position: absolute;
+            top: 0;
+            width: 100%;
+            height: 2.5rem;  
+            }
+        .grid-container {
+            display: grid;
+            grid-template-rows: auto auto;
+            padding: 10px
+            margin: 0 auto;
+            justify-content:space-evenly;
+            width: 1000px;
+        }
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 10px;
+            justify-content: center;
+            width: 1000px;     
+        }
+        .btn:hover {
+            border: 1px solid black
+        }
+        .divider{
+            width:5px;
+            height:auto;
+            display:inline-block;
+            }
+        ul {
+            list-style-type: none;
+             margin: 0;
+             padding: 0;
+             display: grid;
+             grid-auto-flow: column;
+             
+        }
+   
+        li {
+            word-spacing: 2px;
+            display: grid;
+            grid-auto-flow: column;
+        }
+        li a {
+            display:block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
+        div {
+            position:absolute;
+             top:25%;
+             left:25%;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem;  
+            background-color: rgb(245, 245, 245);
+        }
+        .padding {
+            position: absolute;
+            top: 40%
+        }
+        .lower {
+            position: absolute;
+            top: 45%;
+        }
+    </style>
     <nav>
-
+        <ul style="float: left;">
+            <li><a href="About.com">About</a></li>
+            <li><a href="Store.com">Store</a></li>
+            
+        </ul>
+        <ul style="float: right;">
+            <li><a href="Gmail.com">Gmail</a></li>
+            <li><a href="Images.com">Images</a></li>
+            <li><a href="Apps.com">/*Insert Icon here*/</a></li>
+            <li><a href="Signin.com">/*Insert sign in button here*/</a></li>
+        </ul>
     </nav>
     <body>
-        <h1>
-
-        </h1>
-        <h2>
-
-        </h2>
+        <div class="grid-container">
+            <img alt="Google Logo transparent PNG - StickPNG" class="n3VNCb" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd;" style="width: 300px; height: 100px; margin: 35.047px 0px;">
+        </div>
+        <div class="grid-container padding"> 
+            <form id="form" role="search"> 
+                <input type="search" id="query" name="q" placeholder="Search..." aria-label="search through site content">
+                <button>Search</button>
+              </form>
+        </div>
+        <div class="grid-container2 lower">
+            <button class="btn Search">Google Search</button>
+  
+            <button class="btn lucky">I'm Feeling lucky</button>
+        </div>
     </body>
     <footer>
-        
+        <ul style="float: left;"> 
+            <li><a href="Advertising.com">Advertising</a></li>
+            <li><a href="Business.com">Business</a></li>
+            <li><a href="How.com">How Search Works</a></li>
+        </ul>
+        <ul style="float: right;">
+            <li><a href="Privacy.com">Privacy</a></li>
+            <li><a href="Terms.com">Terms</a></li>
+            <li><a href="Settings.com">Settings</a></li>
+        </ul>
     </footer>
 </html>

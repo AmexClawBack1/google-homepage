@@ -1,0 +1,31 @@
+General
+-Navigation Bar is in <nav>
+-Google appears to be <header>
+-Insert search bar in <body>
+-Buttons will be in <body>
+-Footer is <Footer>
+-Google logo, search bar, and two buttons undernearch are all centered
+
+Nav
+-Same white background as body
+-when hovering over buttons they become underlined
+-when hovering over google apps icon "google apps" appears in a text box
+
+Search Bar
+-Google search box edges need to be rounded
+-There needs to be a hover "class"? on search bar
+-When hover there is some shading around all edges; Lines appear to be grey
+-There is a microscope search icon on the left; appears grey
+-Blue and orange microphone icon on right
+
+Buttons
+-Corners are semi-rounded
+-background is grey letters are dark grey
+-When hovering over google search button it adds dark lines around edges
+-a bit of shading when hovering
+-The im feeling lucky button has the same hover style but it does a randomized scroll through different messages like a slot machine
+
+Footer
+-In the footer when you hover over button it underlines it
+-Footer lettering appears to be dark 
+-Backround is grey with a faint line
